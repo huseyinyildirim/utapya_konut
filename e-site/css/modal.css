@@ -1,0 +1,25 @@
+#simplemodal-overlay 
+{
+	background-color:#000; 
+}
+
+#simplemodal-container 
+{
+	height:300px; 
+	width:400px; 
+	background-color:#FFFFFF; 
+	border:4px solid #000000; 
+	padding:12px;
+}
+
+#simplemodal-container a.modalCloseImg 
+{
+	background:url(../image/kapat.png) no-repeat; 
+	width:25px; 
+	height:29px; 
+	display:inline; z-index:3200; 
+	position:absolute; 
+	top:-15px; 
+	right:-16px; 
+	cursor:pointer;
+}

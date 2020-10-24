@@ -1,0 +1,204 @@
+body 
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	background-color:#D0E4FE;
+	margin-left:0;
+	margin-top:0;
+}
+
+a:active		{color: #000000; text-decoration: none;}
+a:link 		{color: #000000; text-decoration: none;}
+a:visited 	{color: #000000; text-decoration: none;}
+a:hover 		{color: #FF0000; text-decoration: underline;}
+
+.eng
+{
+	font-style:italic;
+	color:#900;	
+}
+
+td
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	text-align:left;
+	padding:2px;
+}
+
+.liste_baslik
+{
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	text-align:center;
+	vertical-align:middle;
+	height:30px;
+	background-color:#379BFF;
+}
+
+.liste_baslik.orange
+{
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	text-align:center;
+	vertical-align:middle;
+	height:30px;
+	background-color:#FF9966;
+}
+
+.degisken_baslik
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	text-align:left;
+	vertical-align:middle;
+	height:30px;
+	background-color:#93C9FF;
+}
+
+.baslik
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	font-weight:bold;
+	background-color:#93C9FF;
+	text-align:left;
+}
+
+.baslik.orange
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	font-weight:bold;
+	background-color:#FFCC99;
+	text-align:left;
+}
+
+input
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+}
+
+input:hover
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	border:1px solid #000000;
+	background-color:#FFEAD5;
+}
+
+select
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+}
+
+select:hover
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	border:1px solid #000000;
+	background-color:#FFEAD5;
+}
+
+.zorunlu
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	border:1px solid #FF0000;
+}
+
+.zorunlu:hover
+{
+	background-color:#FFEAD5;
+}
+
+.rowC 
+{
+	font-family:"Trebuchet MS";
+	font-size:11px;
+	background-color:#F2F8FD;
+}
+
+.rowC:hover 
+{
+	font-family:"Trebuchet MS";
+	font-size:11px;
+	background-color:#D5FFE2;
+}
+
+.rowT 
+{
+	font-family:"Trebuchet MS";
+	font-size:11px;
+	background-color:#E3EEFB;
+}
+
+
+.rowT:hover 
+{
+	font-family:"Trebuchet MS";
+	font-size:11px;
+	background-color:#D5FFE2;
+}
+
+.cerceve
+{
+	border:1px solid #000000;	
+}
+
+.s0 
+{
+	background-color:#E3EEFB;
+} 
+
+.s1 
+{
+	background-color:#AAFFAA;
+} 
+
+/*BUTON*/
+.buton
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	height:25px;
+	cursor:pointer;
+	border:0px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	padding:2px;
+	
+}
+
+.buton.mavi 
+{
+	background:#00ADEE;
+}
+
+.buton.yesil 
+{
+	background:#7DB72F;
+}
+
+.buton.kirmizi
+{
+	background:#ED1C24;
+}
+
+.buton.orange
+{
+	background:#FF9966;
+}
+
+
+
+

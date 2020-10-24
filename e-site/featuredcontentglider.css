@@ -1,0 +1,49 @@
+P {   font-family: Trebuchet MS, Helvetica, sans-serif; font-size:9pt;  }
+.glidecontentwrapper{
+position: relative; /* Do not change this value */
+width: 440px; /*ekranýn dýþ geniþliði genel çerçeve*/
+height: 230px; /*ekranýn dýþ yüksekliði genel çerçeve*/
+border: 1px solid #687C98; /*ekranýn çerçeve rengi ve kalýnlýðý*/
+overflow: hidden;
+}
+.glidecontent{ 
+position: absolute; /* burayý ellemeyin */
+background: white; /* ekranýn arka plan rengi */
+padding: 0px; /* ekranda saoðdan soldan alttan üstten býrakýlan boþluk*/
+visibility: hidden;
+width: 440px; /*ekranýn iç geniþliði*/
+}
+.glidecontenttoggler{ /*style for DIV used to contain toggler links. */
+width: 440px;
+margin-top: 6px;
+text-align: center; /*How to align pagination links: "left", "center", or "right"
+background: white; /*always declare an explicit background color for fade effect to properly render in IE*/
+}
+.glidecontenttoggler a{ /*style for every navigational link within toggler */
+display: -moz-inline-box;
+display: inline-block;
+border: 1px solid gray;
+color: #2e6ab1;
+padding: 1px 3px;
+margin-right: 3px;
+font-weight: bold;
+text-decoration: none;
+width: 40px; /* numaralarýn çerçeve geniþliði */
+font-family: Trebuchet MS, Helvetica, sans-serif; font-size:9pt;
+}
+.glidecontenttoggler a.selected{ 
+background: #FF0000;
+color: white;
+}
+.glidecontenttoggler a:hover{
+background: #FF0000;  /*masu rakamlarýn üzerine gelince arka plan rengi*/
+color: white; 
+}
+.glidecontenttoggler a.toc{ /*rakamlarýn görünüm sýnýfý). ".toc" sýnýfý otomatik algýlýyor */
+}
+.glidecontenttoggler a.prev, .glidecontenttoggler a.next{ /*stili "geri" ve "ileri" linkleri. ".prev" ve ".next" sýnýfýný otomatik algýlar */
+}
+.glidecontenttoggler a.prev:hover, .glidecontenttoggler a.next:hover{
+background: #0000FF; /* ileri geri linklerinin arka plan rengi */
+color: white;
+}
